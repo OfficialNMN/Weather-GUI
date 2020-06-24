@@ -32,7 +32,7 @@ root=tk.Tk()
 canvas=tk.Canvas(root,height=HEIGHT,width=WIDTH)
 canvas.pack()
 
-back_img=tk.PhotoImage(file=r'C:\Users\NAMANJEET SINGH\Pictures\Saved Pictures\Landscape.png')
+back_img=tk.PhotoImage(file='Landscape.png')
 back_label=tk.Label(root,image=back_img)
 back_label.place(relwidth=1,relheight=1)
 
